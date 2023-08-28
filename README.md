@@ -9,6 +9,6 @@
 
 ## github.io
 
-* [eczane.github.io](https://eczane.github.io/)
+* [n-e-bilgi.github.io](https://n-e-bilgi.github.io/)
 * [nobetci.github.io](https://nobetci.github.io/)
 
