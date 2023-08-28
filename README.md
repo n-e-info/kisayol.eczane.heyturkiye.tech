@@ -1,4 +1,4 @@
-# Kullanılan Yönlendirme Siteleri
+# Yönlendirme Siteleri
 
 ## netlify.app
 
