@@ -8,3 +8,7 @@
 * [n-e.netlify.app](https://n-e.netlify.app)
 
 ## github.io
+
+* [eczane.github.io](https://eczane.github.io/)
+* [nobetci.github.io](https://nobetci.github.io/)
+
