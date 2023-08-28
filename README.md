@@ -1,4 +1,5 @@
 # Yönlendirme Siteleri
+* [Ana Menüye Dönmek İçin tıklayınız](https://osmanysk.github.io/eczane/)
 
 ## netlify.app
 
