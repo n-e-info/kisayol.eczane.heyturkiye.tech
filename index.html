@@ -12,11 +12,11 @@
      @import url('https://fonts.googleapis.com/css2?family=Raleway');
   
         body {
-    font-family: 'Inter', sans-serif;
-    background-color: #f0f0f0;
-    padding: 50px;
-    color: black; /* Metin rengi varsayılan olarak siyah */
-}
+       font-family: 'Inter', sans-serif;
+       background-color: #f0f0f0;
+       padding: 50px;
+       color: black; /* Metin rengi varsayılan olarak siyah */
+        }
 
         .container {
             background-color: #fff;
@@ -46,7 +46,47 @@
             text-decoration: none;
             color: #007BFF;
         }
-        /* Ayarlar menüsünün sağ üstte görünmesi için stil */
+        /* Bağlantıların altı çizgi olmadan ve mavi renkte olması */
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+/* Ayarlar düğmesi ve menüsü */
+#settings-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#settings-menu {
+    display: none;
+    margin-top: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#font-size-label {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#font-size-slider {
+    width: 100%;
+}
+
+#font-size-display {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+       
+/* Ayarlar menüsünün sağ üstte görünmesi için stil */
 #settings-menu {
     position: absolute;
     top: 100px; 
@@ -70,7 +110,6 @@ body {
 .text-shadow-enabled {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
-
     </style>
 </head>
 <body>
