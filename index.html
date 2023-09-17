@@ -79,7 +79,44 @@ body {
         <ul>
             <li><a href="https://osmanysk.github.io/eczane/">Ana Menüye Dönmek İçin Tıklayınız</a></li>
         </ul>
-        
+        <button id="settings-button">Ayarlar</button>
+<div id="settings-menu">
+    <label for="font-size-slider" id="font-size-label">Metin Boyutu:</label>
+    <input type="range" id="font-size-slider" min="10" max="24">
+    <!-- Metin boyutu göstergesi -->
+    <div id="font-size-display">Metin Boyutu: 18px</div>
+    <br>
+    <label for="font-family-select">Metin Fontu:</label>
+    <select id="font-family-select">
+        <option value="Inter">Inter</option>
+        <option value="Arial">Arial</option>
+        <option value="Times New Roman">Times New Roman</option>
+        <option value="Verdana">Verdana</option>
+        <option value="Courier New">Courier New</option>
+        <option value="Georgia">Georgia</option>
+        <option value="Palatino Linotype">Palatino Linotype</option>
+        <option value="Trebuchet MS">Trebuchet MS</option>
+        <option value="Impact">Impact</option>
+        <option value="Comic Sans MS">Comic Sans MS</option>
+        <option value="Lucida Sans Unicode">Lucida Sans Unicode</option>
+        <option value="Tahoma">Tahoma</option>
+        <option value="Garamond">Garamond</option>
+        <option value="Copperplate">Copperplate</option>
+        <option value="Montserrat">Montserrat (2. Font Sezonu)</option>
+        <option value="Lexend">Lexend</option>
+        <option value="Poppins">Poppins</option>
+        <option value="Quicksand">Quicksand</option>
+        <option value="Raleway">Raleway</option>
+    </select>
+    <label for="text-shadow-toggle">Metin Gölgelendirme:</label>
+        <input type="checkbox" id="text-shadow-toggle">
+        <!-- Arka plan resmi yükleme -->
+    <br>
+        <label for="background-image-input">Arka Plan Resmi:</label>
+        <input type="file" id="background-image-input">
+     <button id="background-on-button">Arka Planı Aç</button>
+        <button id="background-off-button">Arka Planı Kapat</button >
+      </div>
         <h2>netlify.app</h2>
         <ul>
             <li><a href="https://eczane.netlify.app/">eczane.netlify.app</a></li>
